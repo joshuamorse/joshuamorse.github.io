@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Joshua Morse - DigiFu Musician & Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <link href="https://fonts.cdnfonts.com/css/04b19" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <body>
+    <h1>JM</h1>
+    <h2>
+        <span class="first">Joshua</span>
+        <span class="middle">&nbsp;</span>
+        <span class="last">Morse</span>
+    </h2>
+    <h3>DigiFu Musician &amp; Web Developer</h3>
+    <nav>
+      <a :href="link.url" v-for="link in links">{{ link.name }}</a>
+    </nav>
+    <article>
+      <h4>Recent Work</h4>
+      <div id="albums">
+        <a class="album" :href="album.url" v-for="album in albums">
+          <img :src="album.image">
+        </a>
+      </div>
+    </article>
+  </body>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="index.js"></script>
+</html>
