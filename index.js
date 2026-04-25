@@ -11,7 +11,7 @@ Vue.createApp({
           url: "https://joshuamorse.bandcamp.com/album/chipdisc-fusion-vol-1",
         },
         {
-          image: "https://f4.bcbits.com/img/a2649090587_2.jpg",
+          image: "https://f4.bcbits.com/img/a0224808424_10.jpg",
           url: "https://joshuamorse.bandcamp.com/album/arrangement-archives",
         },
         {
