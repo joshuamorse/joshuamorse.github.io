@@ -3,12 +3,12 @@ Vue.createApp({
     return {
       albums: [
         {
-          image: "https://f4.bcbits.com/img/a2858114934_2.jpg",
-          url: "https://joshuamorse.bandcamp.com/album/waveform-psx-vol-2",
+          image: "https://f4.bcbits.com/img/a2937069963_10.jpg",
+          url: "https://joshuamorse.bandcamp.com/album/chipdisc-fusion-vol-2",
         },
         {
-          image: "https://f4.bcbits.com/img/a1790920588_2.jpg",
-          url: "https://joshuamorse.bandcamp.com/album/waveform-psx-vol-1",
+          image: "https://f4.bcbits.com/img/a3102007472_10.jpg",
+          url: "https://joshuamorse.bandcamp.com/album/chipdisc-fusion-vol-1",
         },
         {
           image: "https://f4.bcbits.com/img/a2649090587_2.jpg",
