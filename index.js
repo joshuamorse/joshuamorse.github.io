@@ -3,6 +3,10 @@ Vue.createApp({
     return {
       albums: [
         {
+          image: "https://f4.bcbits.com/img/a2421334875_10.jpg",
+          url: "https://joshuamorse.bandcamp.com/album/chipdisc-fusion-vol-5",
+        },
+        {
           image: "https://f4.bcbits.com/img/a2004193454_10.jpg",
           url: "https://joshuamorse.bandcamp.com/album/chipdisc-fusion-vol-4",
         },
